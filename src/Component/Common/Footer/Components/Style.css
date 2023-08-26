@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.header-logo {
+    height: 27px;
+    max-width: 140px;
+    margin-right: 24px;
+}
+
+.navStyle {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-menu li {
+    margin: 0px 20px;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    color: var(--bg-gradient);
+}
